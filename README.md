@@ -9,7 +9,7 @@ These steps assume you already have a running mysql db. Reference https://www.pr
 
 1. Install dependencies 
     * `npm i`
-1. Creates the .env and prisma/schema.prisma files using 
+1. Create the .env and prisma/schema.prisma files using 
     * `npx prisma init --datasource-provider mysql` 
 1. Update the `DATABASE_UR` connection string in the `.env` file to point to your mysql instance
 1. Populate the `schema.prisma` file with the models(tables) from your mysql db.
