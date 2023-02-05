@@ -10,10 +10,12 @@ These steps assume you already have a running mysql db. Reference https://www.pr
 1. Creates the .env and prisma/schema.prisma files using 
     * `npx prisma init --datasource-provider mysql` 
 1. Update the `DATABASE_UR` connection string in the `.env` file to point to your mysql instance
-1. Populate the `schema.prisma` file with the models(tables) from your mysql db 
+1. Populate the `schema.prisma` file with the models(tables) from your mysql db.
     * `npx prisma db pull` 
-1. `npx primsa generate`
+1. Update @prisma/client with Schema details from previous command.
+   * `npx primsa generate`
 
+_note: Everytime you make a schema change to your db, you need to rerun the `npx prisma db pull` and `npx prisma generate` commands_
 Run the development server:
 
 ```bash
