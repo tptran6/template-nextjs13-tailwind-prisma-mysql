@@ -16,7 +16,7 @@ These steps assume you already have a running mysql db. Reference https://www.pr
     * `npx prisma db pull` 
 1. Update @prisma/client with Schema details from previous command.
    * `npx primsa generate`
-1. In `app/pages.js`, update `my_model` to match your model in schema.prisma. Note that it should be lowercase even though it is Uppercased in the schema.prisma file
+1. In `app/pages.js`, update `my_model` to match your model in schema.prisma. Note that it should be lowercase even though it may be uppercased in the schema.prisma file
    1. Update `row.id` and `row.field_name` also to match your column names in your database.
 
 _note: Everytime you make a schema change to your db, you need to rerun the `npx prisma db pull` and `npx prisma generate` commands_
