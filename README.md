@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-##### Steps after cloning new repo:
+##### Steps after cloning this repo:
 These steps assume you already have a running mysql db. Reference https://www.prisma.io/docs/getting-started/quickstart for your own needs.
 
 1. Install dependencies 
@@ -16,7 +16,8 @@ These steps assume you already have a running mysql db. Reference https://www.pr
    * `npx primsa generate`
 
 _note: Everytime you make a schema change to your db, you need to rerun the `npx prisma db pull` and `npx prisma generate` commands_
-Run the development server:
+
+##### Run the development server:
 
 ```bash
 npm run dev
