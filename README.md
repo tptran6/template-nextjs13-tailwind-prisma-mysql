@@ -1,3 +1,5 @@
+This repos serves as a boilerplate starting point for a NextJS 13 app with tailwindcss, prisma (connecting to a mysql db)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
